@@ -56,11 +56,11 @@ main {
   border-bottom: 1px solid #e5ded2;
 }
 
-/* 見出しの色はブランドカラーに合わせたい（未対応） */
+/* セクション見出し */
 .section h2 {
   margin: 0 0 var(--space);
   font-size: 1.25rem;
-  color: #333333;
+  color: var(--brand);
 }
 
 /* 営業案内 */
